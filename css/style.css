@@ -93,6 +93,7 @@ header{
 }
 /* home */
 section{
+    margin-top: 75px;
     padding: 35px 18px;
 }
 .home{
@@ -371,4 +372,62 @@ span{
 .layer:hover h5{
     bottom: 48%;
     opacity: 1;
+}
+
+/* Contact */
+.contact{
+    background: #8067f0eb;
+    width: 64%;
+    margin: 100px auto;
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url();
+    background-size: cover;
+   
+}
+.center h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: var(--bg-color);
+}
+.center p{
+    font-size: var(--p-font);
+    margin-bottom: 25px;
+    line-height: 26px;
+    color: var(--bg-color);
+
+}
+.contact .action form input[type="email"]{
+    max-width: 100%;
+    width: 470px;
+    padding: 12px 15px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+}
+.contact .action form input[type="submit"]{
+    padding: 12px 15px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.ends{
+    text-align: center;
+    padding: 40px;
+}
+.ends p{
+    font-size: var(--p-font);
+    letter-spacing: 1px;
 }
