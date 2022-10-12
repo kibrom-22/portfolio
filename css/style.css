@@ -93,7 +93,7 @@ header{
 }
 /* home */
 section{
-    padding: 100px 18px;
+    padding: 35px 18px;
 }
 .home{
     min-height: 100%;
@@ -169,4 +169,49 @@ span{
     width: 500px;
     height: auto;
     border-radius: 50%;
+}
+
+/* Skills */
+
+#skills {
+    margin-top: 1rem;
+    
+}
+
+#skills h2{
+    font-size: var(--h2-font);
+    text-align: center;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 20px;
+    transition: .3s;
+}
+.col{
+    font-size: var(--p-font);
+}
+
+.fab {
+   font-size: 5rem;
+   margin: auto;
+   color: rgba(128,103,240,1);
+   margin: 10px;
+}
+.fas {
+    font-size: 5rem;
+    margin: auto;
+    color: rgba(128,103,240,1);
+    margin: 10px;
+ }
+.fab:hover {
+    color: var(--main-color);
+    
+}
+.fas:hover {
+    color: var(--main-color);
+    
 }
