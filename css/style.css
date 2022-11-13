@@ -321,6 +321,13 @@ header.sticky{
     cursor: pointer;
 }
 
+.layer a {
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    
+}
+
 .col{
     position: relative;
 }
